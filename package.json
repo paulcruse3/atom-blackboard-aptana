@@ -5,7 +5,7 @@
     "description": "A modified adaptation of the Blackboard Aptana theme for Atom.",
     "repository": {
         "type": "git",
-        "url": "https://github.com/paulcruse3/atom-blackboard-aptana"
+        "url": "https://github.com/paulcruse3/blackboard-aptana"
     },
     "license": "MIT",
     "engines": {
@@ -13,8 +13,8 @@
     },
     "readmeFilename": "README.md",
     "bugs": {
-        "url": "https://github.com/paulcruse3/atom-blackboard-aptana"
+        "url": "https://github.com/paulcruse3/blackboard-aptana"
     },
-    "homepage": "https://github.com/paulcruse3/atom-blackboard-aptana",
+    "homepage": "https://github.com/paulcruse3/blackboard-aptana",
     "folders": []
 }

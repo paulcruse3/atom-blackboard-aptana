@@ -6,4 +6,4 @@ A *modified* adaptation of the Blackboard Aptana theme for Atom.
 
 HTML Entities are changed
 
-![screenshot](https://raw.githubusercontent.com/paulcruse3/atom-blackboard-aptana/master/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/paulcruse3/blackboard-aptana/master/screenshot.png)
