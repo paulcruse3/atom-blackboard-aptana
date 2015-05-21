@@ -1,6 +1,6 @@
 # Blackboard Aptana Theme for Atom.io
 
-A *modified* adaptation of the Blackboard Aptana theme for Atom.
+A *modified* adaptation of the Blackboard Aptana theme for Atom inspired by [Blackboard Theme](https://atom.io/themes/blackboard-theme)
 
 ### What's Changed?
 
