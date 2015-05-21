@@ -1,4 +1,4 @@
-# Blackboard Aptana Theme
+# Blackboard Aptana Theme for Atom.io
 
 A *modified* adaptation of the Blackboard Aptana theme for Atom.
 
