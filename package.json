@@ -1,7 +1,7 @@
 {
   "name": "blackboard-aptana-theme",
   "theme": "syntax",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "A modified adaptation of the Blackboard Aptana theme for Atom.",
   "repository": {
     "type": "git",
