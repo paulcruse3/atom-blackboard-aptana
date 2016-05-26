@@ -4,6 +4,31 @@ atom-text-editor {
     background-color: @syntax-background-color;
     color: @syntax-text-color;
 }
+// Language Specific Style
+
+// Python
+span.meta.function-call.python{
+    color: #b294bb;
+}
+span.meta.function-call.arguments.python, .entity.other.inherited-class.python{
+    color: white;
+}
+span.entity.name.function.decorator.python{
+    color: #03A9F4;
+}
+.storage.type.function.python, .storage.type.class.python{
+    color: #fbde2d !important;
+}
+.entity.name.type.class.python{
+    color: #f0c674;
+}
+.string.quoted.double.block.sql.python, .punctuation.definition.string.begin.python, .punctuation.definition.string.end.python{
+    color: #929292;
+}
+.support.function.magic.python{
+    color: #8DA6CE !important;
+}
+// PHP
 .punctuation.section.embedded.begin.php{
     color: #FFFFFF;
 }
@@ -11,10 +36,7 @@ atom-text-editor {
     color: #f0c674;
     text-decoration: underline;
 }
-.support.function.php, {
-    color: #b294bb;
-}
-span.meta.function-call.php{
+.support.function.php, span.meta.function-call.php, .function-call.object.php, .function-call.static.php{
     color: #b294bb;
 }
 .namespace.php{
@@ -23,15 +45,11 @@ span.meta.function-call.php{
 .magic.php{
     color: #8DA6CE !important;
 }
-.storage.type.php, .function.construct.php{
+.storage.type.php, .function.construct.php, .modifier.php, .storage.type.function.php{
     color: #fbde2d !important;
 }
-.modifier.php, .storage.type.function.php{
-    color: #fbde2d !important;
-}
-.function-call.object.php, .function-call.static.php{
-    color: #b294bb;
-}
+
+// Global configs
 :host, atom-text-editor {
     background-color: @syntax-background-color;
     color: @syntax-text-color;
