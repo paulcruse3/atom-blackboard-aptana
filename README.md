@@ -2,11 +2,18 @@
 
 A *modified* adaptation of the Blackboard Aptana theme for Atom inspired by [Blackboard Theme](https://atom.io/themes/blackboard-theme)
 
-### What's Changed?
+### Supported Specific Languages
 
-* HTML Entities are changed
-* PHP Namespace colors altered & underlined
-* PHP methods color
-* PHP namespaced classes
+* HTML
+* Javascript
+* PHP
+* Python
 
-![screenshot](https://raw.githubusercontent.com/paulcruse3/blackboard-aptana/master/screenshot.png)
+### HTML
+![screenshot](https://raw.githubusercontent.com/paulcruse3/blackboard-aptana/master/html_screenshot.png)
+### Javascript
+![screenshot](https://raw.githubusercontent.com/paulcruse3/blackboard-aptana/master/javascript_screenshot.png)
+### PHP
+![screenshot](https://raw.githubusercontent.com/paulcruse3/blackboard-aptana/master/php_screenshot.png)
+### Python
+![screenshot](https://raw.githubusercontent.com/paulcruse3/blackboard-aptana/master/python_screenshot.png)
