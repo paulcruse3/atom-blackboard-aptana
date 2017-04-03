@@ -5,7 +5,7 @@
   "description": "A modified adaptation of the Blackboard Aptana theme for Atom.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/paulcruse3/blackboard-aptana"
+    "url": "git+https://github.com/paulcruse3/blackboard-aptana.git"
   },
   "license": "MIT",
   "engines": {
@@ -18,10 +18,10 @@
   "homepage": "https://github.com/paulcruse3/blackboard-aptana",
   "folders": [],
   "readme": "# Blackboard Aptana Theme for Atom.io\n\nA *modified* adaptation of the Blackboard Aptana theme for Atom inspired by [Blackboard Theme](https://atom.io/themes/blackboard-theme)\n\n### What's Changed?\n\n* HTML Entities are changed\n* PHP Namespace colors altered & underlined\n* PHP methods color\n* PHP namespaced classes\n\n![screenshot](https://raw.githubusercontent.com/paulcruse3/blackboard-aptana/master/screenshot.png)\n",
-  "_id": "blackboard-aptana-theme@0.6.0",
+  "_id": "blackboard-aptana-theme@2.0.0",
   "_shasum": "6ab49bd93d71d62f3ee06ebc84c550032db73215",
-  "_resolved": "file:../d-115515-6949-1psu0fm/package.tgz",
-  "_from": "../d-115515-6949-1psu0fm/package.tgz",
+  "_resolved": "file:../d-116425-16053-jja4ep/package.tgz",
+  "_from": "../d-116425-16053-jja4ep/package.tgz",
   "_atomModuleCache": {
     "version": 1,
     "dependencies": [
