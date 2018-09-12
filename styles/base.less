@@ -13,25 +13,31 @@ element.style {
 atom-workspace {
     background-color: rgb(0,0,0) !important;
 }
-// Language Specific Style
+//////////////////////////////
+// Language Specific Style //
+//////////////////////////////
 
 // Python
 span.meta.function-call.python{
     color: #b294bb;
 }
-span.meta.function-call.arguments.python, .entity.other.inherited-class.python{
+span.meta.function-call.arguments.python,
+.entity.other.inherited-class.python{
     color: white;
 }
 span.entity.name.function.decorator.python{
     color: #03A9F4;
 }
-.storage.type.function.python, .storage.type.class.python{
+.storage.type.function.python,
+.storage.type.class.python{
     color: #fbde2d !important;
 }
 .entity.name.type.class.python{
     color: #f0c674;
 }
-.string.quoted.double.block.sql.python, .punctuation.definition.string.begin.python, .punctuation.definition.string.end.python{
+.string.quoted.double.block.sql.python,
+.punctuation.definition.string.begin.python,
+.punctuation.definition.string.end.python{
     color: #929292;
 }
 .support.function.magic.python{
@@ -42,6 +48,11 @@ span.syntax--string.syntax--quoted.syntax--double.syntax--block.syntax--python {
 }
 span.syntax--support.syntax--function.syntax--builtin.syntax--python {
     color: #b294bb;
+}
+.syntax--variable.syntax--language.syntax--python.syntax--self,
+.syntax--variable.syntax--language.syntax--js.syntax--this,
+syntax--variable.syntax--language.syntax--java.syntax--this {
+    color: #f74949
 }
 // PHP
 .punctuation.section.embedded.begin.php{
@@ -60,11 +71,16 @@ span.syntax--support.syntax--function.syntax--builtin.syntax--python {
 .magic.php{
     color: #8DA6CE !important;
 }
-.storage.type.php, .function.construct.php, .modifier.php, .storage.type.function.php{
+.storage.type.php,
+.function.construct.php,
+.modifier.php,
+.storage.type.function.php{
     color: #fbde2d !important;
 }
 
-// Global configs
+//////////////////
+// Global Style //
+//////////////////
 :host, atom-text-editor {
     background-color: @syntax-background-color;
     color: @syntax-text-color;
