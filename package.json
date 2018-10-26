@@ -16,7 +16,6 @@
     "url": "https://github.com/paulcruse3/blackboard-aptana"
   },
   "homepage": "https://github.com/paulcruse3/blackboard-aptana",
-  "folders": [],
   "readme": "# Blackboard Aptana Theme for Atom.io\n\nA *modified* adaptation of the Blackboard Aptana theme for Atom inspired by [Blackboard Theme](https://atom.io/themes/blackboard-theme)\n\n### What's Changed?\n\n* HTML Entities are changed\n* PHP Namespace colors altered & underlined\n* PHP methods color\n* PHP namespaced classes\n\n![screenshot](https://raw.githubusercontent.com/paulcruse3/blackboard-aptana/master/screenshot.png)\n",
   "_id": "blackboard-aptana-theme@2.0.0",
   "_shasum": "6ab49bd93d71d62f3ee06ebc84c550032db73215",
