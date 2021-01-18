@@ -8,6 +8,7 @@ A *modified* adaptation of the Blackboard Aptana theme for Atom inspired by [Bla
 * Javascript
 * PHP
 * Python
+* Typescript
 
 ### HTML
 ![screenshot](https://raw.githubusercontent.com/paulcruse3/blackboard-aptana/master/html_screenshot.png)
