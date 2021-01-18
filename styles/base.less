@@ -13,6 +13,7 @@ element.style {
 atom-workspace {
     background-color: rgb(0,0,0) !important;
 }
+
 //////////////////////////////
 // Language Specific Style //
 //////////////////////////////
@@ -20,74 +21,80 @@ atom-workspace {
 // Python
 .meta.function-call.arguments.python,
 .entity.other.inherited-class.python{
-    color: white;
+    color: @variable-white;
 }
 .syntax--entity.syntax--name.syntax--function.syntax--decorator{
-    color: #03A9F4;
+    color: @helper-blue;
 }
 .syntax--storage.syntax--type.syntax--class {
-    color: #fbde2d;
+    color: @syntax-orage;
 }
 .syntax--storage.syntax--type.syntax--function {
-    color: #fbde2d;
+    color: @syntax-orage;
 }
 .syntax--entity.syntax--name.syntax--type.syntax--class{
-    color: #8DA6CE !important;
+    color: @support-color !important;
 }
 .syntax--variable.syntax--other.syntax--object.syntax--property {
-    color: #BECDE6;
+    color: @function-color;
 }
 // Magic Python
 span.syntax--variable.syntax--language.syntax--special.syntax--self.syntax--python {
-    color: #BECDE6;
+    color: @function-color;
 }
 span.syntax--meta.syntax--function-call.syntax--generic.syntax--python {
-    color: #FF6400;
+    color: @entity-color;
 }
 span.syntax--support.syntax--function.syntax--builtin.syntax--python {
-    color: #b294bb;
+    color: @purple;
 }
 span.syntax--support.syntax--type.syntax--python {
-    color: #b294bb;
+    color: @purple;
 }
 span.syntax--punctuation.syntax--definition.syntax--string.syntax--begin.syntax--python {
-    color: #929292;
+    color: @comment-color;
 }
 span.syntax--punctuation.syntax--definition.syntax--string.syntax--end.syntax--python {
-    color: #929292;
+    color: @comment-color;
 }
 span.syntax--string.syntax--quoted.syntax--docstring.syntax--multi.syntax--python {
-    color: #929292;
+    color: @comment-color;
 }
 span.syntax--keyword.syntax--codetag.syntax--notation.syntax--python {
-    color: #b5bd68;
+    color: @green;
 }
 span.syntax--support.syntax--function.syntax--magic.syntax--python {
-    color: #b294bb;
+    color: @purple;
 }
 // PHP
 .punctuation.section.embedded.begin.php{
-    color: #FFFFFF;
+    color: @variable-white;
 }
 .entity.name.type.class.php, .entity.name.type.namespace.php, .entity.other.inherited-class.php{
-    color: #f0c674;
+    color: @light-orange;
     text-decoration: underline;
 }
 .support.function.php, span.meta.function-call.php, .function-call.object.php, .function-call.static.php{
-    color: #b294bb;
+    color: @purple;
 }
 .namespace.php{
-    color: #8DA6CE;
+    color: @support-color;
 }
 .magic.php{
-    color: #8DA6CE !important;
+    color: @support-color !important;
 }
 .storage.type.php,
 .function.construct.php,
 .modifier.php,
 .storage.type.function.php{
-    color: #fbde2d !important;
+    color: @syntax-orage !important;
 }
+
+// Typescript
+.syntax--support.syntax--type.syntax--primitive.syntax--ts{
+    color: @syntax-orage !important;
+}
+
 
 //////////////////
 // Global Style //
